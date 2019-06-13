@@ -5,7 +5,7 @@ def findMyCar(cars,car):
         elif car == "maserati":
             print ("i found your second car")
 
-cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]:
+cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]
 findMyCar(cars,"hummer")
 
     
