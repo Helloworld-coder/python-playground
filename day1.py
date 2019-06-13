@@ -6,17 +6,18 @@ def findMyCar(cars,find):
             print ("hey i found you car "+ find)
                 
 cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]
-findMyCar(cars,"hummer")
+#findMyCar(cars,"hummer")
 
 
 def findMyCar(cars,find):
+    carNotFound=True
     for car in cars:
         if car == find:
+            carNotFound=False
             print ("hey i found you car "+ find)
-        
-        elif car != find:
-            print("car not found") 
+    if carNotFound:
+        print("car not found") 
 
 cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"] 
-findMyCar(cars,"jaguar")  
+findMyCar(cars,"bmw")  
 
