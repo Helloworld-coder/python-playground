@@ -1,10 +1,8 @@
-def findMyCar(cars,car):
+def findMyCar(cars,find):
     for car in cars:
-        if car == "hummer":
-            print ("hey i found it")
-        elif car == "maserati":
-            print ("i found your second car")
-
+        if car == find:
+            print ("hey i found you car "+ find)
+                
 cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]
 findMyCar(cars,"hummer")
 
