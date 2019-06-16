@@ -21,3 +21,9 @@ def findMyCar(cars,find):
 cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"] 
 findMyCar(cars,"bmw")  
 
+def countArray(data):
+        a=sum(data)
+        print(a)                         
+
+data=[100,200,400,500,300,600]
+countArray(data)
