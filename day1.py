@@ -22,8 +22,26 @@ cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]
 findMyCar(cars,"bmw")  
 
 def countArray(data):
-        a=sum(data)
-        print(a)                         
-
+        for num in data:
+                x=(num)
+                y=(num+x)
+                print(y)
+       
 data=[100,200,400,500,300,600]
 countArray(data)
+
+def name(names,data):
+        namenotfound=True
+        for name in names:
+                if name == data:
+                        namenotfound=False
+                        print("my name is "+ data)
+        if namenotfound:
+                print("name not found")                  
+
+names=["jana","john"]
+name(names,"ram")
+name(names,"jana")
+
+
+
