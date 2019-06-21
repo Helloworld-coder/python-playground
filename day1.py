@@ -56,4 +56,9 @@ c=input("second number:")
 a=cars.addition(int(b),int(c))
 print(a)
 
+d=input("num1:")
+e=input("num2:")
+f=cars.sub(int(d),int(e))
+print(complex(f))
+
 
