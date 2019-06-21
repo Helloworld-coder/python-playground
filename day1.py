@@ -21,9 +21,39 @@ def findMyCar(cars,find):
 cars=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"] 
 findMyCar(cars,"bmw")  
 
-def countArray(data):
-        a=sum(data)
-        print(a)                         
+import cars
+data=["ford","honda","hyundai","bmw","maruthi","maserati","hummer"]
+cars.findMyCar(data,"hummer")
 
-data=[100,200,400,500,300,600]
-countArray(data)
+a=cars.add()
+print(a)
+
+h=cars.IsEngineHot(30)
+if h:
+        print("engine is hot")
+else:
+        print("engine ok carry on")
+
+
+x=input("enginespeed:")
+k=cars.enginespeed(int(x))
+if k:
+        print("low your speed")
+else:
+        print("safe driving")
+
+
+import cars
+t=input("enter temp:")
+c=cars.roomtemp(int(t))
+if c:
+        print("switch on AC")
+else:
+        print("Temp is normal")
+
+b=input("first number:")
+c=input("second number:")
+a=cars.addition(int(b),int(c))
+print(a)
+
+
