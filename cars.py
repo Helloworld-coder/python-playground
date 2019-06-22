@@ -1,3 +1,4 @@
+"""
 def findMyCar(cars,find):
     Mycar=True
     for car in cars:
@@ -36,10 +37,11 @@ def roomtemp(cel):
 def addition(x,y):
         z=x+y
         return(z)
-
-def sub(a,b):
+"""
+def div(a,b):
         c=a/b
-        return(c)
+        return c       
+
 
 
 

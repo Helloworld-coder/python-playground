@@ -1,5 +1,5 @@
 #print("hello world")
-
+"""
 def findMyCar(cars,find):
     for car in cars:
         if car == find:
@@ -56,9 +56,33 @@ c=input("second number:")
 a=cars.addition(int(b),int(c))
 print(a)
 
+
 d=input("num1:")
 e=input("num2:")
 f=cars.sub(int(d),int(e))
-print(complex(f))
+print(int(f)
+
+
+def findmycar(find):
+        carfound=True
+        for car in cars:
+                if car==find:
+                        carfound=False
+                        print("the car is found")
+        if carfound:
+                print("car not found")
+cars=["bmw","maruthi","ferrari","ford"]
+
+
+a=cars.addition(5,10)
+print(a)
+
+"""
+import cars
+a=input("num1:")
+b=input("num2:")
+c=cars.div(int(a),int(b))
+print(c)
+
 
 
