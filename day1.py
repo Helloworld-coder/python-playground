@@ -77,12 +77,58 @@ cars=["bmw","maruthi","ferrari","ford"]
 a=cars.addition(5,10)
 print(a)
 
-"""
+
 import cars
 a=input("num1:")
 b=input("num2:")
 c=cars.div(int(a),int(b))
 print(c)
 
+"""
+a="testing LOWERCASE"
+b=a.casefold()
+print(b)
 
+a="testing uppercase"
+b=a.capitalize()
+print(b)
+
+a="testing Center"
+b=a.center(20)
+print(b)
+
+a="Testings Count"
+b=a.count("s")
+print(b)
+
+c="Testing oF Find".find("oF")
+print(c)
+
+a="Testing the {} Format using {} price"
+b=a.format("command",50)
+print(b)
+
+a=("Testing","join")
+b="F".join(a)
+print(b)
+
+a="Testing the lsrtip"
+b=a.lstrip("Testing the")
+print(b)
+
+c="Testing a new string method"
+b=c.replace("s","S",1)
+print(b)
+
+a="Testing the split"
+b=a.split()
+print(b)
+
+a="Testing the split with separating the given argument"
+b=a.split("t")
+print(b)
+
+a="Testing the split with separating the given argument and times"
+b=a.split("t",4)
+print(b)
 
