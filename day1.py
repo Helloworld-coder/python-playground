@@ -1,3 +1,6 @@
+# This is my understanding about python
+
+
 #print("hello world")
 """
 def findMyCar(cars,find):
@@ -84,7 +87,7 @@ b=input("num2:")
 c=cars.div(int(a),int(b))
 print(c)
 
-"""
+
 a="testing LOWERCASE"
 b=a.casefold()
 print(b)
@@ -132,3 +135,13 @@ a="Testing the split with separating the given argument and times"
 b=a.split("t",4)
 print(b)
 
+"""
+
+namedata=" jana ram lax arun anbu sankar "
+namedatalen=len(namedata)
+names=namedata.strip()
+names=names.split(" ")
+namelength=len(names)
+#modname=names.upper()
+#createlist=modname.split()
+print("The length of the given string is: {} and the list length is: {}".format(namedatalen,namelength))
