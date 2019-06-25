@@ -135,7 +135,7 @@ a="Testing the split with separating the given argument and times"
 b=a.split("t",4)
 print(b)
 
-"""
+
 
 namedata=" jana ram lax arun anbu sankar "
 namedatalen=len(namedata)
@@ -145,3 +145,14 @@ namelength=len(names)
 #modname=names.upper()
 #createlist=modname.split()
 print("The length of the given string is: {} and the list length is: {}".format(namedatalen,namelength))
+
+"""
+def addnumber(a=10,b=40):
+        c=a+b
+        return c       
+
+a=input("num1:")
+b=input("num2:")
+c=addnumber(int(a),int(b))
+print(c)
+
