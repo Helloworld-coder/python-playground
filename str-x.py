@@ -1,4 +1,4 @@
-# list of string methods will be explored here
+# string methods will be explored here
 
 # captalize() method    
 # casefold() method

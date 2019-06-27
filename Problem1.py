@@ -9,7 +9,9 @@ convert(fruit,",",":")
 """
 
 fruits=["apple","orange","mango","chikku","gvuva","papaya","grape","melon","amla","banana"]
-for fruit in range(1,10,2):
-    print(fruits[fruit])
+fruits.reverse()
+print(fruits)
+#for fruit in range(1,10,2):
+#    print(fruits[fruit])
 
 
