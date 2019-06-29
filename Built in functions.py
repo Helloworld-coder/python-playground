@@ -1,8 +1,9 @@
-print()
+help()
 len()
 input()
-sum()
 int()
+print()
+sum()
 str()
 range()
 

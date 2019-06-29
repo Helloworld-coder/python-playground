@@ -146,7 +146,7 @@ namelength=len(names)
 #createlist=modname.split()
 print("The length of the given string is: {} and the list length is: {}".format(namedatalen,namelength))
 
-"""
+
 def addnumber(a=10,b=40):
         c=a+b
         return c       
@@ -155,4 +155,16 @@ a=input("num1:")
 b=input("num2:")
 c=addnumber(int(a),int(b))
 print(c)
+
+def name(a,b):
+        return "my name is {}, my email id is {}".format(a,b)
+    
+h=input("enter the name: ")
+i=input("enter the email id: ")
+d=name(h,i)
+print(d)
+
+"""
+
+
 
