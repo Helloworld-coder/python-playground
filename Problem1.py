@@ -48,7 +48,7 @@ fruits=["apple","oak","guvavu"]
 for fruit in range(fruits):
     print(fruits.int([0,1]))
 
-"""
+
 i=0
 while i<10:
     print(i)
@@ -59,5 +59,89 @@ while i<10:
 laptopnames=["lenovo","hp","dell","apple"]
 checkPosition=laptopnames.index("dell")
 print(checkPosition)
+
+
+
+#dot    -   means 0 run
+#no     -   means 1 run
+#wide   -   means 1 run
+#four   -   means 4 run
+#six    -   means 6 run
+runtypes={"dot":0,"no":1,"wide":1,"four":4,"six":6}
+def addRun(runtype,run,score):
+        return score+int(runtypes[runtype])
+
+
+x=input("enter the runtype: ")
+y=input("enter the run: ")
+z=input("enter the old score: ")
+currenScore=addRun(x,int(y),int(z))
+print(currenScore)
+
+"""
+"""
+scoreBoard={
+    "totalRuns":99,
+    "totalWickets":0,
+    "totalOver":17,
+    "totalExtras":4
+}
+print(scoreBoard)
+
+def runBoard(totalRuns,totalWickets,totalOver,totalExtras):
+        totalRuns=totalRuns+4
+        return {
+            "totalRuns":totalRuns,
+            "totalWickets":totalWickets,
+            "totalOver":totalOver,
+            "totalExtras":totalExtras      
+            
+        }
+w=input("totalRuns: ")
+x=input("totalWickets: ")
+y=input("totalOver: ")
+z=input("totalExtras: ")
+ScoreBoard=runBoard(int(w),x,y,z)
+print(ScoreBoard)
+
+"""
+#from a string of fruits , check for the orange 
+#then convert the string into list
+# then replace orange with kiwi on position 1
+# finally create a dictionary of fruits with respective kgs.
+
+
+fruits=("apple orange melon mango papaya")
+checkFruit=fruits.count("orange")
+checkFruit=fruits.split()
+checkFruit.remove("orange")
+checkFruit.insert(0,"kiwi")
+def fruitsbag(fruits,cost,fruits1,cost1):
+        return {
+            fruit:cost,
+            fruits1:cost1
+            
+        }
+
+fruit=input("enter the fruit1: ")
+cost=input("enter the price: ")
+fruits1=input("enter the second fruit: ")
+cost1=input("enter the second price: ")
+fruitbag=fruitsbag(fruit,cost,fruits1,cost1)
+print(fruitbag)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
