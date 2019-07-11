@@ -6,4 +6,6 @@ print()
 sum()
 str()
 range()
-
+type()
+max()
+min()

@@ -128,7 +128,9 @@ cost=input("enter the price: ")
 fruits1=input("enter the second fruit: ")
 cost1=input("enter the second price: ")
 fruitbag=fruitsbag(fruit,cost,fruits1,cost1)
-print(fruitbag)
+data=fruitbag.get("kiwi")
+print(data)
+
 
 
 

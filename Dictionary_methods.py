@@ -6,6 +6,5 @@ cars = {
     "honda":"civic",
     "rangeRover":"evaoc"
 }
-
-print( cars["bmw"])
-
+cars.pop("bmw")
+print(cars)
