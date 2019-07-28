@@ -1,5 +1,5 @@
 # string methods will be explored here
-
+"""
 # capitalize() method    
         #convers the first letter of string into caps
 names=("jana ram laxman arun")
@@ -46,7 +46,7 @@ designation="data scientist"
 company="irontron"
 FinalData=Demographics.format(company,designation,name)
 print(FinalData)
-"""
+
 # replace () method
   # going to replace a set of brands
 brands=("gm lg sony apple sanofi")
@@ -60,4 +60,6 @@ print("The available brands are" + str(brandnames))
     #also removes the string given as argument
 
 """
-
+import Dictionary_methods
+a=Dictionary_methods.cars
+print(a)

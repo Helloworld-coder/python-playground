@@ -104,7 +104,6 @@ z=input("totalExtras: ")
 ScoreBoard=runBoard(int(w),x,y,z)
 print(ScoreBoard)
 
-"""
 #from a string of fruits , check for the orange 
 #then convert the string into list
 # then replace orange with kiwi on position 1
@@ -130,6 +129,15 @@ cost1=input("enter the second price: ")
 fruitbag=fruitsbag(fruit,cost,fruits1,cost1)
 data=fruitbag.get("kiwi")
 print(data)
+
+"""
+weapons=["guns","knives","swords","bombs","bullets"]
+weapons.insert(1,"goli")
+gadgets=weapons
+print(gadgets)
+
+
+
 
 
 

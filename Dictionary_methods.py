@@ -6,5 +6,6 @@ cars = {
     "honda":"civic",
     "rangeRover":"evaoc"
 }
-cars.pop("bmw")
-print(cars)
+
+cars["huyndai"]="creta"
+print(cars.get("nissan"))
