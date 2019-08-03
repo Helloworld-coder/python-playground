@@ -60,7 +60,8 @@ print("The available brands are" + str(brandnames))
     #also removes the string given as argument
 
 """
+"""
 animals=["lion","tiger","leopard","elephant"]
 ranking=[1,2,3,4]
 def animal_ranking(a,b):
-    
+
