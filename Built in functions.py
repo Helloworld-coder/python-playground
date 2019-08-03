@@ -9,3 +9,4 @@ range()
 type()
 max()
 min()
+#recursive function - function calling itself is called recursive function.

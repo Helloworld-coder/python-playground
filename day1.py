@@ -166,5 +166,10 @@ print(d)
 
 """
 
+import utilities
+cars=["honda","marutji",["bmw","maserati"],"mercedes"]
+output=utilities.NestedToFlatList(cars)
+print(output)
+
 
 
